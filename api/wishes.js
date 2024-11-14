@@ -1,5 +1,5 @@
 // api/wishes.js
-const { connectToDatabase } = require("../utils/db"); // Importe a função para conectar com o MongoDB
+const { connectToDatabase } = require("../connection/conn"); // Importe a função para conectar com o MongoDB
 const Wish = require("../models/wishesSchema"); // Supondo que você tenha o modelo 'Wish'
 
 module.exports = async (req, res) => {
